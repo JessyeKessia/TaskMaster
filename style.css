@@ -1,0 +1,93 @@
+body {
+    --cor-1: #e9f7f9;
+    --cor-2: #000000fb;
+    --cor-7: #380431;
+    --radius-small: 8px;
+    --radius-normal: 10px;
+    background-color:
+    rgb(10, 10, 10);
+    margin: 0;
+    height: 100vh;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 20px auto;
+    padding: 12px;
+    border-radius: var(--radius-normal);
+    background: linear-gradient(135deg, #f490e7, #4b0a74);
+  }
+  h1 {
+    text-align: center;
+  }
+  .listas {
+    display: flex;
+    gap: 6px;
+  }
+  .listaP {
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .listaL {
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;
+    flex-direction: column;
+    gap: 6px;
+    display: flex;
+  }
+  .listas p {
+    color: var(--cor-2);
+    font-weight: 550;
+    font-size: 20px;
+  }
+  .card {
+    background-color: var(--cor-1);
+    padding: 8px;
+    border-radius: var(--radius-normal);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .card button {
+    background-color: var(--cor-7);
+    border: none;
+    color: white;
+    padding: 6px 16px;
+    border-radius: var(--radius-small);
+    align-self: center;
+  }
+  
+  .formulario {
+    display: flex;
+    margin-top: 12px;
+    flex-direction: column;
+    gap: 6px;
+  }
+  input {
+    border: 1px solid var(--cor-7);
+    border-radius: var(--radius-small);
+    padding: 10px 6px;
+    background-color: var(--cor-1);
+  }
+  .buttons {
+    display: flex;
+    gap: 6px;
+  }
+  .buttons button {
+    flex-basis: 0;
+       flex-grow: 1;
+    background-color: var(--cor-7);
+    border: none;
+    color: white;
+    padding: 6px 16px;
+    border-radius: var(--radius-small);
+  }
